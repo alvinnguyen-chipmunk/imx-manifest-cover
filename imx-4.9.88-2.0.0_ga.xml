@@ -33,6 +33,6 @@
      <linkfile src="imx/README" dest="README-IMXBSP"/>
   </project>
 
-  <project remote="Cover" revision="57c1753741581bbfd58900f666ac466d76c6602e" name="meta-imx6ull-cover" path="sources/meta-imx6ull-cover"/>
+  <project remote="Cover" revision="rocko" name="meta-imx6ull-cover" path="sources/meta-imx6ull-cover"/>
 
 </manifest>
