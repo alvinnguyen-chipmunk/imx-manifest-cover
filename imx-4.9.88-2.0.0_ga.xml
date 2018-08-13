@@ -10,6 +10,7 @@
   <remote fetch="git://github.com/meta-qt5"  name="QT5"/>
   <remote fetch="https://source.codeaurora.org/external/imx" name="CAF"/>
   <remote fetch="https://git.yoctoproject.org/git" name="TI"/>
+  <remote fetch="https://github.com/sbabic" name="SWUPD"/>
   <remote fetch="https://github.com/alvinnguyen-chipmunk" name="Cover"/>
 
   <project remote="yocto" revision="0ec241873367e18f5371a3ad9aca1e2801dcd4ee" name="poky" path="sources/poky"/>
@@ -37,6 +38,8 @@
   <!-- Use the last commit at 27/07/2018 14:13:00 -->
   <project remote="TI" revision="f9e8966a355f4abfb27375f61ae8f9998ac267ab" name="meta-ti" path="sources/meta-ti"/>
 	
+  <project remote="SWUPD" revision="6e4eab4f475b0129d6510815a3bbc4748c97dbbe" name="meta-swupdate" path="sources/meta-swupdate"/>
+
   <project remote="Cover" revision="rocko" name="meta-imx-cover" path="sources/meta-imx-cover" >
      <linkfile src="tools/imx-cover-setup-release.sh" dest="imx-cover-setup-release.sh"/>
   </project>
